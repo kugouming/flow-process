@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="4">
   <diagram name="第 1 页" id="iaJiMRWaCHO9DjY36pJx">
     <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -974,6 +974,163 @@
         </mxCell>
         <mxCell id="CyA0IWYdoH67KUbH8Dvg-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="267" width="132" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="INi-TdMHqP1IPeLA4web" name="第 4 页">
+    <mxGraphModel dx="2593" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-2" value="order_info" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-3" value="order_detail_1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="242" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-5" value="order_detail_2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="322" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="1" source="FFxPaiSAMARXtlPJRVQ4-2" target="FFxPaiSAMARXtlPJRVQ4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="1" source="FFxPaiSAMARXtlPJRVQ4-2" target="FFxPaiSAMARXtlPJRVQ4-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-7" value="order_detail_3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="392" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FFxPaiSAMARXtlPJRVQ4-2" target="FFxPaiSAMARXtlPJRVQ4-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-10" value="promotion_info_1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-11" value="promotion_info_2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-11" source="FFxPaiSAMARXtlPJRVQ4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-10" source="FFxPaiSAMARXtlPJRVQ4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="336" y="563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-14" value="promotion_info_3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-14" source="FFxPaiSAMARXtlPJRVQ4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-16" value="groupon_info_1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="766" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-17" value="groupon_info_2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="846" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-17" source="FFxPaiSAMARXtlPJRVQ4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-19" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="335" y="681" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-20" value="groupon_info_3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="916" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251" y="600" as="sourcePoint" />
+            <mxPoint x="431" y="936" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-22" value="groupon_detail_1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="836" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-23" value="groupon_detail_2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="916" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-24" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="936" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="936" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-26" value="groupon_detail_3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="986" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-27" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="FFxPaiSAMARXtlPJRVQ4-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="936" as="sourcePoint" />
+            <mxPoint x="610" y="866" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-30" value="主&lt;div&gt;单&lt;/div&gt;&lt;div&gt;表&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#99CCFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="232" width="120" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-32" value="订&lt;br&gt;&lt;div&gt;单&lt;/div&gt;&lt;div&gt;明&lt;/div&gt;&lt;div&gt;细&lt;/div&gt;&lt;div&gt;表&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#99CCFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="232" width="30" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="120" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-34" value="促&lt;div&gt;销&lt;br&gt;&lt;div&gt;明&lt;/div&gt;&lt;div&gt;细&lt;/div&gt;&lt;div&gt;表&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#99CCFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="30" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="758" width="120" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-36" value="团&lt;div&gt;购&lt;br&gt;&lt;div&gt;&lt;div&gt;表&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#99CCFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="758" width="30" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="694" y="827" width="120" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FFxPaiSAMARXtlPJRVQ4-38" value="团&lt;div&gt;购&lt;br&gt;&lt;div&gt;&lt;div&gt;明&lt;/div&gt;&lt;div&gt;细&lt;/div&gt;&lt;div&gt;表&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#99CCFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="814" y="827" width="30" height="208" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
