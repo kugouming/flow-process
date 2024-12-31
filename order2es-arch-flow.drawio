@@ -1395,7 +1395,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u5F5FRf6ZBEcTlfiqtld-1" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=22;rotation=-90;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1011.5" y="748.37" width="295.5" height="90" as="geometry" />
+          <mxGeometry x="1011.5" y="749.37" width="295.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="u5F5FRf6ZBEcTlfiqtld-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="250" width="415" height="200" as="geometry" />
