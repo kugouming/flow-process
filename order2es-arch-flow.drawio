@@ -1136,15 +1136,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="szqOo_NC7Vukz_3yhO2s" name="解决方案">
-    <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2963" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JlwOOIvvGZTpa9u4inS7-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#808080;fontColor=#8F8F8F;" vertex="1" parent="1">
-          <mxGeometry x="1001" y="1201" width="333" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="u5F5FRf6ZBEcTlfiqtld-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="630" width="975" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JlwOOIvvGZTpa9u4inS7-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;dashed=1;strokeColor=#8F8F8F;" vertex="1" parent="1">
+          <mxGeometry x="531" y="640" width="389" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JlwOOIvvGZTpa9u4inS7-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#808080;fontColor=#8F8F8F;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="1201" width="333" height="67" as="geometry" />
         </mxCell>
         <mxCell id="u5F5FRf6ZBEcTlfiqtld-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36dtRS3hENfDoWUXv9Cl-26" target="u5F5FRf6ZBEcTlfiqtld-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
