@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="5">
   <diagram id="INi-TdMHqP1IPeLA4web" name="表结构">
     <mxGraphModel dx="1430" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1016,6 +1016,530 @@
         </mxCell>
         <mxCell id="36dtRS3hENfDoWUXv9Cl-11" value="info 1" style="ellipse;whiteSpace=wrap;html=1;direction=north;textDirection=vertical-lr;verticalAlign=top;flipH=1;flipV=1;" parent="1" vertex="1">
           <mxGeometry x="535" y="768.62" width="31.5" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tqp2XJVRTVvHSAgEY1Wk" name="整体架构流程图">
+    <mxGraphModel dx="2066" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CPgMsUURdu7e6G_IMagq-121" value="错误处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="753" y="2546" width="768" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-122" value="HTTP接口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2393" y="455" width="241" height="822" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-123" value="存储系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1562" y="2771" width="696" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-124" value="Elasticsearch服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1671" y="2009" width="477" height="689" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-125" value="数据访问" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="1504" width="541" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-126" value="分布式锁机制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="217" y="2266" width="516" height="664" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-127" value="消息处理中心" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="455" width="1905" height="999" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-128" value="Extension处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="728" width="551" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-129" value="OrderDetail处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="367" y="728" width="673" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-130" value="OrderInfo处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1631" y="857" width="422" height="572" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-131" value="程序启动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="173" width="277" height="482" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-132" value="消息源" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="961" y="20" width="379" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-133" value="Kafka Topic: xes_platform_order" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="45" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-134" value="订单变更消息&#xa;order_info/order_detail/extension" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="996" y="198" width="309" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-135" value="main.go 启动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="210" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-136" value="consumer() 函数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2146" y="351" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-137" value="Kafka配置&#xa;- GroupID: test2&#xa;- OffsetNewest&#xa;- CommitInterval: 1s" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="492" width="207" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-138" value="解析消息类型" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1038" y="480" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-139" value="解析OrderInfo消息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1666" y="930" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-140" value="检查TxStatus" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1689" y="1105" width="147" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-141" value="SyncOrder全量同步" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1821" y="1350" width="197" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-142" value="解析OrderDetail消息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="445" y="753" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-143" value="消息类型检查" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="474" y="882" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-144" value="获取分布式锁" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1152" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-145" value="updateOrderDetail" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="811" y="1350" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-146" value="解析Extension消息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1186" y="753" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-147" value="消息类型检查" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="882" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-148" value="获取分布式锁" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="1152" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-149" value="updateExtentions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1391" y="1350" width="185" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-150" value="Lock Service" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="398" y="2291" width="149" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-151" value="版本检查&#xa;checkVersionNeedProcess" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="352" y="2395" width="242" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-152" value="Redis锁操作&#xa;SETNX + SET" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="258" y="2583" width="148" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-153" value="指数退避重试&#xa;backoff *= 1.5" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="252" y="2812" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-154" value="数据库查询&#xa;- OrderInfo&#xa;- OrderDetail&#xa;- Extension" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1664" y="1529" width="154" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-155" value="时间过滤&#xa;命令行请求检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1754" y="1705" width="172" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-156" value="数据合并&#xa;JSON序列化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="1833" width="144" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-157" value="EsService" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1777" y="2034" width="127" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-158" value="并发控制&#xa;最大100并发" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1766" y="2138" width="149" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-159" value="查询现有文档" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1762" y="2291" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-160" value="数据差异对比&#xa;jsondiff" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1706" y="2395" width="156" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-161" value="ES文档更新/创建" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1932" y="2595" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-162" value="MySQL数据库&#xa;分库分表" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1597" y="2802" width="109" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-163" value="Elasticsearch&#xa;索引: xes_platform_order" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="2796" width="199" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-164" value="Redis缓存&#xa;锁 + 版本控制" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2109" y="2802" width="113" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-165" value="HTTP请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2448" y="528" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-166" value="Ctrl控制器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2446" y="753" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-167" value="模板引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2451" y="930" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-168" value="StreamManager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2428" y="1152" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-169" value="错误日志记录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="2595" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-170" value="重试机制&#xa;- 锁冲突重试&#xa;- 网络错误重试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="788" y="2571" width="167" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-171" value="异常恢复&#xa;util.Recovery()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2812" width="167" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-172" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-133" target="CPgMsUURdu7e6G_IMagq-134">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-173" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.29;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-134" target="CPgMsUURdu7e6G_IMagq-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1151" y="301" />
+              <mxPoint x="2165" y="326" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-174" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.54;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-135" target="CPgMsUURdu7e6G_IMagq-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2247" y="326" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-175" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-136" target="CPgMsUURdu7e6G_IMagq-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-176" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=1;entryY=0.45;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-136" target="CPgMsUURdu7e6G_IMagq-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2165" y="430" />
+              <mxPoint x="2165" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-177" value="order_info" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.58;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-138" target="CPgMsUURdu7e6G_IMagq-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1762" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-178" value="order_detail" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.59;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-138" target="CPgMsUURdu7e6G_IMagq-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="549" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-179" value="extension" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-138" target="CPgMsUURdu7e6G_IMagq-146">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1283" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-180" value="商品订单" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=0;entryY=0.09;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-138" target="CPgMsUURdu7e6G_IMagq-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="655" />
+              <mxPoint x="347" y="1429" />
+              <mxPoint x="1004" y="1454" />
+              <mxPoint x="1004" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-181" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-139" target="CPgMsUURdu7e6G_IMagq-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-182" value="TxStatus=1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.43;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-140" target="CPgMsUURdu7e6G_IMagq-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1889" y="1277" />
+              <mxPoint x="1889" y="1314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-183" value="TxStatus≠1" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.56;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-140" target="CPgMsUURdu7e6G_IMagq-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1717" y="1277" />
+              <mxPoint x="1717" y="1429" />
+              <mxPoint x="1296" y="1454" />
+              <mxPoint x="1296" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-184" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-142" target="CPgMsUURdu7e6G_IMagq-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-185" value="UPDATE" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-143" target="CPgMsUURdu7e6G_IMagq-144">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="1069" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-186" value="非UPDATE" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0.7;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-143" target="CPgMsUURdu7e6G_IMagq-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="1069" />
+              <mxPoint x="605" y="1429" />
+              <mxPoint x="1357" y="1454" />
+              <mxPoint x="1357" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-187" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=0.99;entryX=0.07;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-144" target="CPgMsUURdu7e6G_IMagq-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="1277" />
+              <mxPoint x="456" y="1429" />
+              <mxPoint x="349" y="1454" />
+              <mxPoint x="349" y="2266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-188" value="成功" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-144" target="CPgMsUURdu7e6G_IMagq-145">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="908" y="1277" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-189" value="失败" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0.99;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-144" target="CPgMsUURdu7e6G_IMagq-170">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="1277" />
+              <mxPoint x="539" y="1429" />
+              <mxPoint x="832" y="1454" />
+              <mxPoint x="832" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-190" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-146" target="CPgMsUURdu7e6G_IMagq-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-191" value="UPDATE" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-147" target="CPgMsUURdu7e6G_IMagq-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1182" y="1069" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-192" value="非UPDATE" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.92;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-147" target="CPgMsUURdu7e6G_IMagq-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1356" y="1069" />
+              <mxPoint x="1356" y="1429" />
+              <mxPoint x="1452" y="1454" />
+              <mxPoint x="1452" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-193" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=0.99;entryX=1;entryY=0.09;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-148" target="CPgMsUURdu7e6G_IMagq-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1146" y="1277" />
+              <mxPoint x="1146" y="1429" />
+              <mxPoint x="645" y="1454" />
+              <mxPoint x="645" y="2266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-194" value="成功" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-148" target="CPgMsUURdu7e6G_IMagq-149">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1483" y="1277" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-195" value="失败" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.99;entryX=0.82;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-148" target="CPgMsUURdu7e6G_IMagq-170">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1289" y="1277" />
+              <mxPoint x="1289" y="1429" />
+              <mxPoint x="950" y="1454" />
+              <mxPoint x="950" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-196" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-150" target="CPgMsUURdu7e6G_IMagq-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-197" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=1;entryX=0;entryY=0.46;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-151" target="CPgMsUURdu7e6G_IMagq-164">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="577" y="2510" />
+              <mxPoint x="577" y="2771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-198" value="需要处理" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-151" target="CPgMsUURdu7e6G_IMagq-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="2510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-199" value="跳过" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-151" target="CPgMsUURdu7e6G_IMagq-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="2510" />
+              <mxPoint x="655" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-200" value="失败" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=0.38;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-152" target="CPgMsUURdu7e6G_IMagq-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="2698" />
+              <mxPoint x="293" y="2771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-201" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=0.65;entryY=1;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-153" target="CPgMsUURdu7e6G_IMagq-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="376" y="2771" />
+              <mxPoint x="376" y="2698" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-202" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.08;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-141" target="CPgMsUURdu7e6G_IMagq-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1919" y="1429" />
+              <mxPoint x="1651" y="1454" />
+              <mxPoint x="1651" y="1504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-203" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.17;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-145" target="CPgMsUURdu7e6G_IMagq-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="908" y="1429" />
+              <mxPoint x="1671" y="1454" />
+              <mxPoint x="1671" y="1504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-204" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1;entryY=0.32;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-149" target="CPgMsUURdu7e6G_IMagq-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1483" y="1429" />
+              <mxPoint x="2043" y="1454" />
+              <mxPoint x="2043" y="1504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-205" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-154" target="CPgMsUURdu7e6G_IMagq-162">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1651" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-206" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-154" target="CPgMsUURdu7e6G_IMagq-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-207" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-155" target="CPgMsUURdu7e6G_IMagq-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-208" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-156" target="CPgMsUURdu7e6G_IMagq-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-209" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-157" target="CPgMsUURdu7e6G_IMagq-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-210" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-158" target="CPgMsUURdu7e6G_IMagq-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-211" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1.01;entryX=0.28;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-159" target="CPgMsUURdu7e6G_IMagq-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1897" y="2370" />
+              <mxPoint x="1897" y="2771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-212" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-159" target="CPgMsUURdu7e6G_IMagq-160">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1784" y="2370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-213" value="有差异" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.82;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-160" target="CPgMsUURdu7e6G_IMagq-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="2510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-214" value="无差异" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.29;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-160" target="CPgMsUURdu7e6G_IMagq-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1784" y="2546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-215" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.72;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-161" target="CPgMsUURdu7e6G_IMagq-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="2771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-216" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-165" target="CPgMsUURdu7e6G_IMagq-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-217" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-166" target="CPgMsUURdu7e6G_IMagq-167">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-218" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-167" target="CPgMsUURdu7e6G_IMagq-168">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-219" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.62;entryY=0.01;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-168" target="CPgMsUURdu7e6G_IMagq-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2513" y="1277" />
+              <mxPoint x="1976" y="1314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-220" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.23;entryY=0;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-170" target="CPgMsUURdu7e6G_IMagq-171">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="871" y="2771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPgMsUURdu7e6G_IMagq-221" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1;entryY=0.22;rounded=0;" edge="1" parent="1" source="CPgMsUURdu7e6G_IMagq-169" target="CPgMsUURdu7e6G_IMagq-171">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1269" y="2771" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
